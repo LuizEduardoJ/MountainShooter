@@ -1,9 +1,21 @@
 #C
 COLOR_ORANGE = (255, 128, 0)
 COLOR_WHITE = (255, 255, 255)
+COLOR_YELLOW = (231, 237, 104)
+
+
+# E
+ENTITY_SPEED = {
+    'Level1Bg0': 0,
+    'Level1Bg1': 0,
+    'Level1Bg2': 0,
+    'Level1Bg3': 0,
+    'Level1Bg5': 0,
+    'Level1Bg6': 0,
+}
 
 # M
-MENU_OPTION = ('NEW GAME 1P,'
+MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
                'NEW GAME 2P - COMPETITIVE',
                'SCORE',
