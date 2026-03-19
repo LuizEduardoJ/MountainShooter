@@ -1,15 +1,12 @@
-#C
+# C
 import pygame
 
 COLOR_ORANGE = (255, 128, 0)
 COLOR_WHITE = (255, 255, 255)
 COLOR_YELLOW = (231, 237, 104)
 
-
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
-
-
 ENTITY_SPEED = {
     'Level1Bg0': 0,
     'Level1Bg1': 1,
@@ -24,6 +21,20 @@ ENTITY_SPEED = {
     'Enemy2': 1,
 }
 
+ENTITY_HEALTH = {
+    'Level1Bg0': 999,
+    'Level1Bg1': 999,
+    'Level1Bg2': 999,
+    'Level1Bg3': 999,
+    'Level1Bg4': 999,
+    'Level1Bg5': 999,
+    'Level1Bg6': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Enemy1': 50,
+    'Enemy2': 60,
+}
+
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
@@ -31,8 +42,7 @@ MENU_OPTION = ('NEW GAME 1P',
                'SCORE',
                'EXIT')
 
-
-#P
+# P
 PLAYER_KEY_UP = {'Player1': pygame.K_UP,
                  'Player2': pygame.K_w}
 PLAYER_KEY_DOWN = {'Player1': pygame.K_DOWN,
@@ -44,9 +54,9 @@ PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                     'Player2': pygame.K_LCTRL}
 
-#S
+# S
 SPAWN_TIME = 40000
 
-#W
+# W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
