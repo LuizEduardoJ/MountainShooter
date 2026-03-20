@@ -1,5 +1,6 @@
 # C
 import pygame
+from pygame.examples.grid import WINDOW_WIDTH
 
 C_ORANGE = (255, 128, 0)
 C_WHITE = (255, 255, 255)
@@ -130,10 +131,26 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
 
 # S
 SPAWN_TIME = 40000
+SCORE_POS = {
+    'Title': (WINDOW_WIDTH / 2, 50),
+    'EnterName': (WINDOW_WIDTH / 2, 80),
+    'Label': (WINDOW_WIDTH / 2, 90),
+    'Name': (WINDOW_WIDTH / 2, 110),
+    0: (WINDOW_WIDTH / 2, 110),
+    1: (WINDOW_WIDTH / 2, 120),
+    2: (WINDOW_WIDTH / 2, 150),
+    3: (WINDOW_WIDTH / 2, 170),
+    4: (WINDOW_WIDTH / 2, 190),
+    5: (WINDOW_WIDTH / 2, 210),
+    6: (WINDOW_WIDTH / 2, 230),
+    7: (WINDOW_WIDTH / 2, 250),
+    8: (WINDOW_WIDTH / 2, 270),
+    9: (WINDOW_WIDTH / 2, 290),
+}
 
 # T
 TIMEOUT_STEP = 100  # 100ms
-TIMEOUT_LEVEL = 20000  # 20s
+TIMEOUT_LEVEL = 5000  # 20s
 
 # W
 WIN_WIDTH = 576
